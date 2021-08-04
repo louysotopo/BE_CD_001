@@ -63,5 +63,3 @@ def detalle_curso(key):
         return {"message":"No se ha podido obtener"}
     return curso_.toJSON()
 
-# db.session.add(curso(cur_nombre="dying is good",cur_descripcion="este es un curso",cur_estado=1,cur_resolucion="D48 UNSA"))
-# db.session.commit()
